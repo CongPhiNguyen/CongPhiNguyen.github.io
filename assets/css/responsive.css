@@ -1,0 +1,134 @@
+
+/* Mobile and Ipad */
+@media (max-width: 1023px)
+{
+    #nav .subnav a {
+        line-height: 41px;
+    }
+
+    #content .mobile-contact {
+        line-height: 2;
+    }
+
+    #footer a i{
+        font-size: 24px;
+        padding: 0px 6px;
+    }
+
+    .modal-container {
+        max-width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px)
+{
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        color: #fff;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 0 40px;
+    }
+
+    #header {
+        font-size: 15px;
+        overflow: hidden;
+    }
+
+    #header .search-icon{
+        display: none;
+    }
+
+    #header .menu-btn{
+        display: inline-block;
+    }
+
+    #header .menu-icon{
+        color: #fff;
+        font-size: 20px;
+        line-height: 46px;
+        padding: 0 24px;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+    } 
+    
+    #slider .text-content{
+        display: none;
+    }
+
+    #content .mobile-member{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .character-avatar{
+        width: 60%;
+    }
+
+    #content .mobile-tour {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    #content .place-buy-btn {
+        width: 100%;
+    }
+
+    #content .contact-content{
+        padding-top: 32px;
+    }
+
+    #content .mobile-contact {
+        width: 100%;
+    }
+
+    #content .mobile-form {
+        width: 100%;
+    }
+
+    #content .mobile-contact {
+        margin-bottom: 16px;
+    }
+
+    .submit-form {
+        width: 100%;
+    }
+    .modal-container {
+        max-width: 100%;
+    }
+
+}
+
+
+
+/* PC */
+@media (min-width: 1024px)
+{
+
+}
+
+/* Ipad */
+@media (max-width: 1023px) and (min-width: 741px)
+{
+
+}
+
