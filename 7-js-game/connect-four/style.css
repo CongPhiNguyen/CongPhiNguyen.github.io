@@ -1,0 +1,36 @@
+#result{
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.grid {
+    width: 280px;
+    height: 280px;
+    border: 1px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid .cell {   
+    width: 40px;
+    height: 40px;
+    box-shadow:0px 0px 0px 1px #c4c4c4 inset;
+}
+
+.grid .cell:not(.taken):hover {
+    background-color: rgba(202, 230, 220, 0.856);
+}
+
+.grid .player-one {
+    border-radius: 100%;
+    background-color: cyan;
+}
+
+.grid .player-two {
+    border-radius: 100%;
+    background-color: crimson;
+}
+
+.grid .taken:hover {
+    opacity: 0.5;
+}

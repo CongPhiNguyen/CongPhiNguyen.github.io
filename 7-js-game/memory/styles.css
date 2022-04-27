@@ -1,0 +1,18 @@
+.grid{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+.grid .img-display{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.grid .img-display:hover{
+    opacity: 0.7;
+}
+
+.disable:hover{
+    opacity: 1!important;
+}
